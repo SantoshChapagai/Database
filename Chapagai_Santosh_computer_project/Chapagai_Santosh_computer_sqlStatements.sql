@@ -25,6 +25,8 @@ insert into computer values(1, 'BigFlop Mark II', 'supercomputer', 15, 700);
 
 
 -- Getting data
+select * from computer;
+select computerName, id, price from computer;
 select * from computer where amount = 1;
 select * from computer where price = 200;
 select * from computer where price = 1500;
